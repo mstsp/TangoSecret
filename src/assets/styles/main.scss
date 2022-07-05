@@ -1,0 +1,28 @@
+@import "variables";
+@import "reset";
+@import "fonts";
+@import "icon-fonts";
+@import "section";
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1440px;
+  min-width: 320px;
+  padding: 0 19px;
+  margin: 0 auto;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body, html {
+  min-width: 100%;
+  min-height: 100%;
+  background-color: $underground;
+  color: #FFFFFF;
+}
